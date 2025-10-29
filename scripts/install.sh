@@ -2,7 +2,7 @@
 set -euo pipefail
 
 APP_NAME="moka"
-ENTRY_FILE="./index.ts"
+ENTRY_FILE="./src/cli/index.ts"
 OUT_DIR="$(pwd)/dist"
 OUT_FILE="$OUT_DIR/$APP_NAME"
 INSTALL_DIR="$HOME/.local/bin"
