@@ -1,0 +1,21 @@
+{
+  "name": "moka",
+  "module": "index.ts",
+  "description": "Pretty JaCoCo tree coverage report viewer",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run src/index.ts",
+    "build": "bun build",
+    "test": "bun run dev"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^5.3.0"
+  }
+}
